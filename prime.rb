@@ -1,4 +1,3 @@
-# Add  code here!
 def prime?(integer)
 
   range = (2..integer).to_a

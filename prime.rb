@@ -2,7 +2,7 @@
 def prime?(integer)
 
   range = (2..integer)
-  range_array.split(",")
+  range_array = range.split(",")
 
   if integer > 1
     range_array.each do |number|

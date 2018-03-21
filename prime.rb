@@ -1,17 +1,14 @@
 def prime?(integer)
 
+  if integer >= 2
 
-
-  if integer <= 1
-    false
-  else
-    range = (2..integer).to_a
+    range = (2..integer)
   
     range.each do |number|
-      if integer % number == 0 && integer != number
-        false
-      else 
+      if integer % number != 0 
         true
+      else 
+        false
 end
       end
   end

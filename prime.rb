@@ -1,11 +1,11 @@
 # Add  code here!
 def prime?(integer)
 
-  range = (2..integer)
-  range_array = range.split(",")
+  range = (2..integer).to_a
+  
 
   if integer > 1
-    range_array.each do |number|
+    range.each do |number|
       integer % number == 0
         number != integer
       end

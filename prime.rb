@@ -1,6 +1,6 @@
 def prime?(integer)
 
-  range = (2..integer).to_a
+  range = [2..integer].to_a
 
   if integer <= 1
     false

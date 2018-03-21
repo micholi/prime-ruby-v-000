@@ -4,8 +4,8 @@ def prime?(integer)
 
     # range = (2..integer)
 
-    (2..integer).all? do |number|
-    integer % number != 0
+    (2..integer).none? do |number|
+    integer % number == 0
 end
       else
         false

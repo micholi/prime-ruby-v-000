@@ -6,10 +6,9 @@ def prime?(integer)
 
     (2..integer - 1).each do |number|
     integer % number != 0
-
+end
       else
         false
-end
-      
+
   end
 end

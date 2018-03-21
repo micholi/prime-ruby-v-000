@@ -1,7 +1,7 @@
 def prime?(integer)
 
   range = (2..integer)
-  range_array = range.split
+  range.split(",") = range_array
 
   if integer <= 1
     false

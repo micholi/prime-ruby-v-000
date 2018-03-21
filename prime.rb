@@ -10,6 +10,8 @@ def prime?(integer)
     range.each do |number|
       if integer % number == 0 && integer != number
         false
+      else 
+        true
 end
       end
   end

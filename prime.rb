@@ -6,7 +6,7 @@ def prime?(integer)
   if integer <= 1
     false
   else
-    range.each do |number|
+    range_array.each do |number|
       if integer % number == 0 && integer != number
         false
 end

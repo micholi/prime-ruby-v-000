@@ -5,9 +5,9 @@ def prime?(integer)
 
   if integer > 1
     range.each do |number|
-      integer % number == 0 && number != integer
-        true
-      
+      ( integer % number == 0 && number != integer ) ? true : false
+
+
       end
   end
 end

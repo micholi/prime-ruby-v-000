@@ -1,6 +1,12 @@
 # Add  code here!
 def prime?(integer)
+
+  range = [2..integer]
+  
   if integer > 1
-    range = [2..integer]
+    range.each do |number|
+      integer % number == 0
+        divisible_by = number
+        
   end
 end
